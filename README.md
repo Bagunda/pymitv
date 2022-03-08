@@ -45,7 +45,7 @@ This method is used to scan the local network for TVs.
 ```python
 import Discover from pymitv
 
-discover = Discover.scan()
+discover = Discover().scan()
 print(discover)
 ```
 
